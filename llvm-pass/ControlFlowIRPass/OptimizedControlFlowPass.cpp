@@ -17,9 +17,9 @@
 #include "llvm/Passes/PassBuilder.h"
 #include "llvm/Passes/PassPlugin.h"
 
-#define OPERATION_TYPE_ENTRY 1
-#define OPERATION_TYPE_EXIT  2
-#define OPERATION_TYPE_HASH  3
+#define OPERATION_TYPE_ENTRY 0x01
+#define OPERATION_TYPE_EXIT  0x02
+#define OPERATION_TYPE_HASH  0x03
 
 using namespace llvm;
 
